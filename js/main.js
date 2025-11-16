@@ -12,7 +12,7 @@ function createCard(comic) {
   return `
     <div class="comic-card" onclick="openComic(${comic.id})">
       <div class="comic-img">
-        <img src="${comic.image}" alt="${comic.title}" />
+        <img src="${comic.cover}" alt="${comic.title}" />
       </div>
       <h3>${comic.title}</h3>
       <p class="price">₹${comic.price}</p>
